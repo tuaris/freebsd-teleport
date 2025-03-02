@@ -22,15 +22,15 @@ FLAVORS=	client tctl
 FLAVOR?=	${FLAVORS:[1]}
 
 client_PKGNAMESUFFIX=	-client
-client_PLIST_FILES=	bin/tsh
 .if ${FLAVOR} == client
 GO_TARGET=	./tool/tsh
+PLIST_FILES=	bin/tsh
 .endif
 
 tctl_PKGNAMESUFFIX=	-tctl
-tctl_PLIST_FILES=	bin/tctl
 .if ${FLAVOR} == tctl
 GO_TARGET=	./tool/tctl
+PLIST_FILES=	bin/tctl
 .endif
 
 GO_MODULE=	github.com/gravitational/${PORTNAME}/v17
