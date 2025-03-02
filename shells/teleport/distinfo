@@ -1,0 +1,7 @@
+TIMESTAMP = 1740859446
+SHA256 (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/go.mod) = 0852b3b6ef6fb6d1d018d605656376fa738287ee8d058e5f62dbeb63a43affd7
+SIZE (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/go.mod) = 30477
+SHA256 (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/gravitational-teleport-v17.3.0_GH0.tar.gz) = 05441d99794124645330b9b0be690b5f3c1248fd61fae4aeca68c5b205fea992
+SIZE (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/gravitational-teleport-v17.3.0_GH0.tar.gz) = 171423932
+SHA256 (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/golang-sys-v0.6.0_GH0.tar.gz) = b4f6d17c7a128f76169964b437cb66b3f2dbf9a33361928ec19dfecf7b03fc54
+SIZE (go/shells_teleport/gravitational-teleport-v17.3.0_GH0/golang-sys-v0.6.0_GH0.tar.gz) = 1434234
