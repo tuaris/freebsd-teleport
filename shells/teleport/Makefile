@@ -28,7 +28,7 @@ GO_TARGET=	./tool/tsh
 .endif
 
 tctl_PKGNAMESUFFIX=	-tctl
-tctl_PLIST_FILES=	bin/tsh
+tctl_PLIST_FILES=	bin/tctl
 .if ${FLAVOR} == tctl
 GO_TARGET=	./tool/tctl
 .endif
